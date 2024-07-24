@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced DHCP Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced DHCP Calculator</h1>
+        
+        <div class="input-group">
+            <label for="start-ip">Expected DHCP Range</label>
+            <input type="text" id="start-ip" placeholder="Start IP">
+            <input type="text" id="end-ip" placeholder="End IP">
+        </div>
+
+        <div class="input-group">
+            <label for="static-ips">Static IPs</label>
+            <div id="static-ip-list">
+                <input type="text" class="static-ip" placeholder="Static IP">
+            </div>
+            <button id="add-more-static-ip">+ Add More</button>
+        </div>
+
+        <div class="input-group">
+            <label for="static-ip-ranges">Static IP Ranges</label>
+            <div id="static-ip-range-list">
+                <div class="static-ip-range">
+                    <input type="text" class="static-ip-start" placeholder="Start IP">
+                    <input type="text" class="static-ip-end" placeholder="End IP">
+                </div>
+            </div>
+            <button id="add-more-static-ip-range">+ Add More</button>
+        </div>
+
+        <button id="calculate">Calculate</button>
+
+        <div class="result">
+            <h2>Result</h2>
+            <textarea id="result-area" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
