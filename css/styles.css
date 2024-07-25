@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5dc;
+    background-color: #33332e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: #ffffe0;
+    background-color: #f7f451;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 400px;
@@ -38,12 +38,13 @@ input[type="text"] {
     margin-right: 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
+    background-color: #caf0f8;
     border-radius: 6px;
     box-sizing: border-box;
 }
 
 #add-more-static-ip, #add-more-static-ip-range {
-    background-color: #add8e6;
+    background-color: #172429;
     border: none;
     padding: 8px 12px;
     border-radius: 6px;
@@ -57,7 +58,7 @@ input[type="text"] {
 }
 
 button#calculate {
-    background-color: #b0e0e6;
+    background-color: #1dcbf6;
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
@@ -80,12 +81,12 @@ button#calculate:hover {
 textarea {
     width: 100%;
     height: 120px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 6px;
     padding: 10px;
     box-sizing: border-box;
     resize: none;
-    background-color: #f0f8ff;
+    background-color: #caf0f8;
 }
 
 textarea:focus {
