@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: #ffffe0;
+    background-color: #BBE9FF;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 400px;
@@ -43,7 +43,7 @@ input[type="text"] {
 }
 
 #add-more-static-ip, #add-more-static-ip-range {
-    background-color: #add8e6;
+    background-color: #526fac;
     border: none;
     padding: 8px 12px;
     border-radius: 6px;
@@ -57,13 +57,13 @@ input[type="text"] {
 }
 
 button#calculate {
-    background-color: #b0e0e6;
+    background-color: #526fac;
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-    color: #333;
+    color: #ffffff;
     transition: background-color 0.3s;
 }
 
